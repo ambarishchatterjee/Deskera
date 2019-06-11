@@ -1,0 +1,274 @@
+/*!
+ * Custome css for Deskera theme
+ */
+body{
+    background-color: #fff;
+}
+.site-header {
+    background-color: #ff3c00;
+}
+.site-header {
+    border-bottom-color: #ff3c00;
+    background: #ff3c00;
+}
+
+.main-navigation a, .main-navigation a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+li.get_started {
+    background: #fff;
+    border-radius: 10px;
+}
+
+li.get_started a{
+	color: #ff3c00;
+}
+
+#banner_section{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    align-items: center;
+}
+#banner_section h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#banner_section p{
+    font-size: 25px;
+}
+#banner_section .subscribeform{
+    display: flex;
+    margin-bottom: 20px;
+}
+.subscribeform input.subemail {
+    border: 1px solid #ED2939;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.subscribeform input.subbtn {
+    border: 1px solid #ED2939;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ED2939;
+}
+
+/*Home section 2*/
+.section_heading{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+#service_section{
+    margin-top: 50px;
+}
+#service_section p, #testimonial_section p{
+    font-size: 32px;
+}
+.service_block.col-sm-4{
+    text-align: left;
+}
+.services_blocks, .testimonial_blocks{
+    /* display: grid; */
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    text-align: center;
+    padding: 20px 50px;
+}
+#service_section .services_blocks p, .services_blocks h3, #testimonial_section .testimonial_block p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+#testimonial_section .testimonial_block{
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 1px 1px 1px #dddddd;
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+.gourl{
+    /* float: right; */
+}
+/*client section*/
+#client_section {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px 0;
+    align-items: center;
+    grid-gap: 20px;
+}
+#cta_section{
+    background-color: #ED2939;
+    padding: 50px
+}
+.ctaarea h3{
+    color: #ffffff;
+    font-weight: 400;
+}
+.ctaarea .ctaform{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.ctaform input.ctaemail {
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.ctaform input.ctabtn {
+    border: 1px solid #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ffffff;
+    color: #ED2939;
+}
+.footer-wrap{
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    color: #ffffff;
+}
+.footer-wrap h4{
+    margin: 20px 0;
+    color: #ffffff;
+}
+.footer-wrap ul{
+    padding: 0;
+    margin: 0;
+}
+.footer-wrap ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #DDDDDD;
+}
+.footer-wrap hr{
+    background: #DDDDDD;
+}
+.footer-wrap .ctaform{
+    display: flex;
+}
+.social-icons img{
+    margin-left: 5px;
+}
+
+
+/*product page*/
+#products_section, #other_service_section{
+    padding: 50px 0;
+}
+.product_block{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+    grid-template-areas:
+    "a b"
+    "c c"
+}
+.product_block .product_image{
+    justify-self: end;
+    grid-area: b;
+}
+.product_block h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    grid-area: a;
+}
+#products_section p{
+    font-size: 20px;
+    grid-area: c;
+}
+#form_section h2{
+    font-size: 55px;
+    margin: 30px 0 20px;
+}
+#form_section h3{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.learnform input[type="text"]{
+    border-radius: 15px;
+    margin: 15px 0;
+}
+.learnform .learnbtn{
+    background-color: #ED2939;
+    color: #ffffff;
+    border-radius: 10px;
+}
+#other_service_section h2{
+    font-size: 46px;
+    margin: 30px 0;
+}
+#other_service_section h3{
+    font-size: 40px;
+
+}
+.otherp {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.otherp:hover{
+    background-color: #ED2939;
+    color: #ffffff
+}
+
+/*blog page*/
+.back{
+    color: #AAAAAA;
+    margin: 20px 0;
+}
+#blogcontent_section{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -50px;
+    background: #fff;
+    box-shadow: 0px 1px 2px #ddd;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+#blogcontent_section h3{
+    font-size: 48px;
+    margin: 20px 0;
+}
+.social_icons img{
+    margin: 5px 10px;
+}
+.similar_list {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 2px #ddd;
+    padding: 20px;
+}
+.similar_list a{
+    justify-self: end;
+}
+.colorchooser{
+    display: block;
+    position: fixed;
+    right:20px;
+    top:40px;
+    z-index: 9999
+}
+.colorchooser ul li{
+    list-style: none;
+    cursor: pointer;
+    display: inline;
+}
